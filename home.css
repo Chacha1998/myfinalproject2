@@ -1,0 +1,47 @@
+/* Updated CSS for the form to have a single column layout */
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1px;
+    border-bottom: 1px solid #ddd;
+}
+
+label,
+input {
+    margin-bottom: 10px;
+}
+
+#gasExpenseResult,
+#maintenanceCostResult,
+#clothesExpenseResult,
+#lunchExpenseResult,
+#totalExpenseResult,
+#totalExpenseMessage,
+#additionalAmountResult {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    background-color: #333;
+    color: white;
+}
+
+#calculateButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto; /* Updated to use shorthand property for centering */
+    width: fit-content; /* Make the button width fit its content */
+}
+
+/* Updated CSS for the lunch question radio buttons */
+.lunch-question label {
+    display: block;
+    margin-bottom: 10px;
+}

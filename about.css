@@ -1,0 +1,62 @@
+h1 {
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: center; /* Center the text horizontally */
+    padding: 2px; /* Adjust the padding for larger screens */
+    font-size: 24px; /* Adjust the font size for larger screens */
+}
+
+/* Media query for screens smaller than or equal to 490px */
+@media (max-width: 490px) {
+    h1 {
+        padding: 10px; /* Adjust the padding for smaller screens */
+        font-size: 18px; /* Adjust the font size for smaller screens */
+    }
+}
+
+/* Styles for screens larger than 490px */
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px; /* Adjust the padding for larger screens */
+    flex-direction: column;
+}
+
+/* Media query for screens smaller than or equal to 490px */
+@media (max-width: 490px) {
+    .flex-container {
+        padding: 20px; /* Adjust the padding for smaller screens */
+    }
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px; /* Adjust the padding for both larger and smaller screens */
+    flex-direction: column;
+}
+
+h2 {
+    margin: 0;
+    margin-top: 15px;
+    font-size: 20px; /* Adjust the font size for larger screens */
+}
+
+/* Media query for screens smaller than or equal to 490px */
+@media (max-width: 490px) {
+    h2 {
+        font-size: 16px; /* Adjust the font size for smaller screens */
+    }
+}
+
+
+.lunch-question {
+    margin: 20px;
+}
+
+.lunch-question label {
+    display: block;
+    margin-bottom: 10px;
+}
