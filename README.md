@@ -65,25 +65,25 @@ I will now provide the following 3 Capstone Features I chose to go for and why I
 
 1. Retrieve data from a third-party API and use it to display something within your app.
 
-I achieved this by opting in for the Google Maps Matrix API as seen in my script.js file. Without referring this API, you woudl not be able to calculate the distance between your home and work address. Without this, the additonal calculations that come after would be incomplete and incorrect. For safety, I currently have removed the API key from my JS. I will have provided the API key upon submitting this project as well as leaving you with my email zac.chavez98@gmail.com if you need to retrieve the key to run my code!
+I achieved this by opting in for the Google Maps Matrix API as seen in my script.js file. Without referring to this API, you would not be able to calculate the distance between your home and work address. Without this, the additional calculations that come after would be incomplete and incorrect. For safety, I currently have removed the API key from my JS. I will have provided the API key upon submitting this project as well as leaving you with my email zac.chavez98@gmail.com if you need to retrieve the key to run my code!
 
 2. Create a function that accepts two or more input parameters and returns a value that is calculated or determined by the inputs. Basic math functions don’t count (e.g. addition, etc).
 
-I achieved this by having my js calculation accepting the home and work address inputs, taking that and claculating the distance, converting it into miles, make a special calulation that takes in the cost of gas, MPG, address distances and multiplying all of that to find the yearly consumption of gas, as well as the other calculations you can see in my js, all coming together to help you find the annual expense of going into office 5 days a week.
+I achieved this by having my js calculation accepting the home and work address inputs, taking that and calculating the distance, converting it into miles, make a special calculation that takes in the cost of gas, MPG, address distances and multiplying all of that to find the yearly consumption of gas, as well as the other calculations you can see in my js, all coming together to help you find the annual expense of going into office 5 days a week.
 
 3. Convert user input between two formats and display the result. (e.g. Fahrenheit to Celcius, kilograms to pounds, etc)
 
-I achieved this as in the earlier stages of getting my API key to work with my site, I finaly was able to get the distance to display, however the data returned kilometers into miles. This would not be a problem in Germany, but in the US it will have an effect when calculating for MPG instead of km/l (kilometers per liter). To fix this I had to adjust my calculation to adjust the results shown to display as miles instead of kilometers. This happens at around line 29 in my js!
+I achieved this as in the earlier stages of getting my API key to work with my site, I finally was able to get the distance to display, however the data returned kilometers into miles. This would not be a problem in Germany, but in the US it will have an effect when calculating for MPG instead of km/l (kilometers per liter). To fix this I had to adjust my calculation to adjust the results shown to display as miles instead of kilometers. This happens at around line 29 in my js!
 
 I believe I also may have accomplished the following Capstone features as well but was unsure and wanted to mention:
 
 1. Calculate and display data based on an external factor (ex: get the current date, and display how many days remaining until some event)
 
-I believe the "external factor" I accomplished woud be the user inputs and getting results displayed because of those inputs
+I believe the "external factor" I accomplished would be the user inputs and getting results displayed because of those inputs
 
-This was not required but I enjoyed making this and want to continue makig it better so I thougt it would be cool to add some features that I had thought of but did not have time to add but plan to do in the future:
+This was not required but I enjoyed making this and want to continue making it better so I thought it would be cool to add some features that I had thought of but did not have time to add but plan to do in the future:
 
-1. Add another caluclate distance button that converts everything into kilometers
+1. Add another calculate distance button that converts everything into kilometers
 
 2. Improve the current CSS to make it even better
 
