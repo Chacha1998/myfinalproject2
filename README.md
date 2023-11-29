@@ -1,7 +1,5 @@
 # myfinalproject2
 
-# myfinalproject
-
 Here's an updated and comprehensive breakdown of the steps needed to run my code successfully:
 
 1. Clone or Download the Repository:
@@ -61,7 +59,7 @@ These steps should help you run the application successfully while using the Moe
 
 Now that you know how to run the code, here are the requirement I went for when builidng out my project:
 
-For visual appeal and responsiveness, I went with a very basic layout but made sure to keep the same color scheme as well as keep my Nav bar clean, easy to use, and adjustable to smaller screens via hamburger menu. I made sure to complete these taks using CSS Grid and Flexbox. The hamburger menu may not show on a small computer screen depending on screen size but I confirmed it shows for mobile deviecs when using the inspect tool when testing my site. Additianly while playing with code and making changes I also made sure to make enough commits and hit 14 commits at the time of this writing. Now for the features.
+For visual appeal and responsiveness, I went with a very basic layout but made sure to keep the same color scheme as well as keep my Nav bar clean, easy to use, and adjustable to smaller screens via hamburger menu. I made sure to complete these taks using CSS Grid and Flexbox. The hamburger menu may not show on a small computer screen depending on screen size but I confirmed it shows for mobile deviecs when using the inspect tool when testing my site. Additianly while playing with code and making changes I also made sure to make enough commits and hit 14 commits at the time of this writing. UPDATE due to my API key being in old commits on my previous repo I decided to delete it and transfer all my code over into this repo. I will make sure too have at least 5 commits before the deadline but wanted ot add reasoning as to why my amount of commits may look small. Now for the features.
 
 I will now provide the folowing 3 Capstone Features I chose to go for and why I believe I achieved them.
 
